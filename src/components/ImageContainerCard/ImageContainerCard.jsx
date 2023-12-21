@@ -1,8 +1,8 @@
 import React from "react";
-import "./styles.module.css";
+import styles from "./style.module.css";
 
 const ImageContainerCard = () => {
-  return <div className="body">ImageContainerCard</div>;
+  return <div className={styles.card}>Card</div>;
 };
 
 export default ImageContainerCard;
