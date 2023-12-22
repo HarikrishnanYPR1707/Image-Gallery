@@ -17,4 +17,23 @@
   width: 90dvw;
 
   border: dashed 2px cyan;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.card-container {
+  background: red;
+  border: solid 1px white;
+}
+
+.card-container:nth-child(1) {
+  background: blue;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.card-container:nth-child(8) {
+  grid-column: span 2;
 }
