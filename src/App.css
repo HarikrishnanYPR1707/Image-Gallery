@@ -5,4 +5,16 @@
   height: 100dvh;
   width: 100vw;
   width: 100dvw;
+
+  display: grid;
+  place-content: center;
+}
+
+.inner-wrapper {
+  height: 90vh;
+  height: 90dvh;
+  width: 90vw;
+  width: 90dvw;
+
+  border: dashed 2px cyan;
 }
