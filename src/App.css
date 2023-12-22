@@ -35,5 +35,6 @@
 }
 
 .card-container:nth-child(8) {
+  background: orange;
   grid-column: span 2;
 }
