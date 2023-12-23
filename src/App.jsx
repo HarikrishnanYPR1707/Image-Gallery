@@ -5,15 +5,6 @@ function App() {
   return (
     <div className="wrapper">
       <div className="inner-wrapper">
-        {/* <div className="card-container"></div>
-        <div className="card-container"></div>
-        <div className="card-container"></div>
-        <div className="card-container"></div>
-        <div className="card-container"></div>
-        <div className="card-container"></div>
-        <div className="card-container"></div>
-        <div className="card-container"></div> */}
-
         {Array(8)
           .fill(true)
           .map((item, i) => {
