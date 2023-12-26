@@ -24,6 +24,7 @@
 .card-container {
   background: red;
   border: solid 1px white;
+  opacity: 50%;
 }
 
 .card-container:nth-child(1) {
