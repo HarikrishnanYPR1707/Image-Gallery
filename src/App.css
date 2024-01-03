@@ -16,6 +16,7 @@
   /* border: dashed 2px cyan; */
 
   display: grid;
+  gap: 10px;
   grid-template-rows: repeat(3, 1fr);
 }
 
@@ -25,6 +26,8 @@
   background: red;
   position: relative;
   overflow: hidden;
+  border-radius: 25px;
+
   /* border: solid 1px white; */
   opacity: 50%;
   background-repeat: no-repeat;
@@ -57,17 +60,9 @@
   background-image: url("./assets/images/img8.jpg");
 } */
 
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
   .inner-wrapper {
-    grid-template-rows: repeat(8, 250px);
-  }
-
-  .inner-wrapper {
-    gap: 10px;
-  }
-
-  .card-container {
-    border-radius: 25px;
+    grid-template-rows: repeat(8, 350px);
   }
 
   .card-container:nth-child(n) {
@@ -76,7 +71,7 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 1000px) {
   .card-container:nth-child(1) {
     background: blue;
     grid-column: 1 / 3;
