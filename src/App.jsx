@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/ImageContainerCard/ImageContainerCard";
+import { imageData } from "./data";
 
 function App() {
   return (
@@ -8,7 +9,14 @@ function App() {
         {Array(8)
           .fill(true)
           .map((item, i) => {
-            return <Card key={i} styles="card-container" />;
+            return (
+              <Card
+                key={i}
+                source={imageData[i].path}
+                imgAlt={imageData[i].title}
+                styles="card-container"
+              />
+            );
           })}
       </div>
     </div>

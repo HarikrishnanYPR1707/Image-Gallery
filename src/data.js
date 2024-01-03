@@ -1,34 +1,34 @@
 export const imageData = [
   {
-    path: "./assets/images/img1.jpg",
+    path: "./images/img1.jpg",
     title: "image 1",
   },
   {
-    path: "./assets/images/img2.jpg",
+    path: "./images/img2.jpg",
     title: "image 2",
   },
   {
-    path: "./assets/images/img3.jpg",
+    path: "./images/img3.jpg",
     title: "image 3",
   },
   {
-    path: "./assets/images/img4.jpg",
+    path: "./images/img4.jpg",
     title: "image 4",
   },
   {
-    path: "./assets/images/img5.jpg",
+    path: "./images/img5.jpg",
     title: "image 5",
   },
   {
-    path: "./assets/images/img6.jpg",
+    path: "./images/img6.jpg",
     title: "image 6",
   },
   {
-    path: "./assets/images/img7.jpg",
+    path: "./images/img7.jpg",
     title: "image 7",
   },
   {
-    path: "./assets/images/img8.jpg",
+    path: "./images/img8.jpg",
     title: "image 8",
   },
 ];

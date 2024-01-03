@@ -1,8 +1,8 @@
-.card {
-  height: 100%;
+.image {
+  position: absolute;
   width: 100%;
-  background: white;
-
-  color: black;
-  text-wrap: wrap;
+  height: 100%;
+  object-fit: cover;
+  inset: 0;
+  margin: auto;
 }
