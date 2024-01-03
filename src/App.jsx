@@ -1,8 +1,24 @@
+import { useEffect } from "react";
 import "./App.css";
 import Card from "./components/ImageContainerCard/ImageContainerCard";
 import { imageData } from "./data";
+import Lenis from "@studio-freight/lenis";
 
 function App() {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    lenis.on("scroll", (e) => {
+      console.log(e);
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  });
   return (
     <div className="wrapper">
       <div className="inner-wrapper">
