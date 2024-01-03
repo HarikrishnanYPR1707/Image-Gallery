@@ -1,8 +1,8 @@
+import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
 import "./App.css";
 import Card from "./components/ImageContainerCard/ImageContainerCard";
 import { imageData } from "./data";
-import Lenis from "@studio-freight/lenis";
 
 function App() {
   useEffect(() => {
