@@ -8,7 +8,7 @@ function App() {
         {Array(8)
           .fill(true)
           .map((item, i) => {
-            return <Card styles="card-container" />;
+            return <Card key={i} styles="card-container" />;
           })}
       </div>
     </div>
