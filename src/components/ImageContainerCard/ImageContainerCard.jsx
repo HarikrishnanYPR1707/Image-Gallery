@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import style from "./style.module.css";
-import { useRef } from "react";
 
 const ImageContainerCard = ({ source, imgAlt, styles }) => {
   return (
