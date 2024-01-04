@@ -60,7 +60,7 @@
   background-image: url("./assets/images/img8.jpg");
 } */
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .inner-wrapper {
     grid-template-rows: repeat(8, 350px);
   }
@@ -71,7 +71,7 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .card-container:nth-child(1) {
     background: blue;
     grid-column: 1 / 3;
