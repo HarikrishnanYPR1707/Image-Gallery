@@ -43,7 +43,7 @@ A simple and responsive image gallery with a grid layout, built using Vite.js, R
    ```bash
    npm run dev
    ```
-   Open your browser and visit http://localhost:3000 to view the image gallery
+   Open your browser and visit http://localhost:5173 to view the image gallery
 
 # Usage
 
