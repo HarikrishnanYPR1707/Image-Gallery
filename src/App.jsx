@@ -1,20 +1,8 @@
-import Lenis from "@studio-freight/lenis";
-import { useEffect } from "react";
 import "./App.css";
 import Card from "./components/ImageContainerCard/ImageContainerCard";
 import { imageData } from "./data";
 
 function App() {
-  useEffect(() => {
-    const lenis = new Lenis();
-
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-  });
   return (
     <div className="wrapper">
       <div className="inner-wrapper">
